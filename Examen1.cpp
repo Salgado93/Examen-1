@@ -13,7 +13,7 @@ void esPanagrama();
 int contarPalabras(char*);
 int cuentaCaracteres(char*);
 int main (int argc, char* argv[]){
-	//esPanagrama();
+	esPanagrama();
 	//int opcion=0;
 	//while(opcion != 4){
 		//cout << "2. Ejercicio 2" << endl;
@@ -29,6 +29,7 @@ int main (int argc, char* argv[]){
 			int spc;
 			char frase[256];
 			char *frases = new char[256];
+			cout << "Ejercicio 2" << endl;
 			cout << "Ingrese Una Frase" << endl;
 			cin.getline(frase,256);
 			strcpy(frases,frase);
